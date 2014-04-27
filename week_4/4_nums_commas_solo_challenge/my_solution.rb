@@ -34,6 +34,5 @@ def separate_comma(number)
     puts number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
 end
 
-
-
 # 4. Reflection 
+# I wasted SO much time on this challenge trying to figure out how to count from the right side of a string in Ruby before realizing you can simply reverse the string. I felt like a complete idiot once I figured that out. Also, I realized in the refactoring, that I didn't need an if/else statement, which worked out conveniently while I was testing this code. Despite the fact that much code is not written, this challenge took me a pretty long while. Looking back at it though, the solution seems pretty simple once to read through the code: you're converting the number to a string, reversing the order, slicing every 3 digits, joining again with commas and reversing back. 

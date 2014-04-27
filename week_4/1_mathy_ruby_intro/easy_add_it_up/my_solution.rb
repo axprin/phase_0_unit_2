@@ -35,3 +35,4 @@ def sentence_maker(array)
 end
 
 # 4. Reflection 
+#I found this challenge to be a little more difficult than I thought it was going to be. After spending a solid month off of Ruby, while diving deep into HMTL, CSS and JavaScript, I forgot a lot of the syntax and structure of Ruby. I had to spend a pretty decent amount of time reacquainting myself with everything, which I found to be enriching and very helpful. In retrospect, I probably should have choosen more difficult exercises for this first challenge, but I think with the rest of the work I did this week, I made up for that.

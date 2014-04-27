@@ -39,14 +39,14 @@ def my_array_sorting_method(source)
 end
 
 def my_hash_sorting_method(source)
-  source.sort_by &:last
+	source.sort_by &:last
 end
 
 
 # Identify and describe the ruby method you implemented. 
 # for sorting the array, I had a lot of trouble. My answer isn't technically correct, since (according to the test) I should have converted all array items to strings, but then I couldn't get the sort to work, since "2" doesn't fall into the alphabet. My code returns the same output, but the values for numbers remain integers and NOT strings. 
 #
-#for sorting the hash, since the value is the last number stored in the hash, I did some googling and found out you can sort_by &:last, which was a simple an effective solution. 
+#for sorting the hash, since the value is the last number stored in the hash, I did some googling and found out you can sort_by &:last, which was a simple and effective solution. 
 
 
 # Person 4
@@ -68,19 +68,15 @@ end
 # HINT: Use `puts` statements to see if you are altering the original structure with these methods. 
 # Each of these should return `true` if they are implemented properly.
 
-p my_array_finding_method(i_want_pets, "t") == ["want","pets","but"]
-p my_hash_finding_method(my_family_pets_ages, 3) == ["Hoobie", "Ditto"]
-p my_array_modification_method(i_want_pets, 1) == ["I", "want", 4, "pets", "but", "I", "only", "have", 3 ]
-p my_hash_modification_method(my_family_pets_ages, 2) == {"Evi" => 8, "Hoobie" => 5, "George" => 14, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
+#p my_array_finding_method(i_want_pets, "t") == ["want","pets","but"]
+#p my_hash_finding_method(my_family_pets_ages, 3) == ["Hoobie", "Ditto"]
+#p my_array_modification_method(i_want_pets, 1) == ["I", "want", 4, "pets", "but", "I", "only", "have", 3 ]
+#p my_hash_modification_method(my_family_pets_ages, 2) == {"Evi" => 8, "Hoobie" => 5, "George" => 14, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 p my_array_sorting_method(i_want_pets) == ["3", "4", "I", "but", "have", "only", "pets", "want"]
 p my_hash_sorting_method(my_family_pets_ages) == [["Annabelle", 0], ["Ditto", 3], ["Hoobie", 3], ["Bogart", 4], ["Poly", 4], ["Evi", 6], ["George", 12]] 
 # This may be false depending on how your method deals with ordering the animals with the same ages.
-p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "I", "only", 3 ]
-p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
+#p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "I", "only", 3 ]
+#p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 # Reflect!
-# 
-# 
-# 
-# 
-# 
+# My summary/description of which methods I used and why pretty much sums up what I would write in a reflection for this challenege. 
