@@ -106,11 +106,9 @@ puts "Test 2) essay_writer takes one argument: #{method(:essay_writer).arity == 
 puts "Test 3) essay_writer takes famous person's attributes and inputs them into the essay format correctly: #{essay_writer(thomas_edison).downcase == "the tragic life of thomas edison\nthomas edison was a very important person in history. he is best known for inventing the lightbulb in 1808. it is a little known fact that he loved the color periwinkle. as a small child, thomas edison had a gigantic snake as a pet named roger. sadly, thomas edison was mauled by roger shortly after being recognized for inventing the lightbulb. thomas edison died in 1892."}"
 
 #test 4
-
 puts "Test 4) essay_writer capitalizes every word in the title, name, and pet name of the famous person: #{essay_writer(thomas_edison) == "The Tragic Life Of Thomas Edison\nThomas Edison was a very important person in history. He is best known for inventing the lightbulb in 1808. It is a little known fact that he loved the color periwinkle. As a small child, Thomas Edison had a gigantic snake as a pet named Roger. Sadly, Thomas Edison was mauled by Roger shortly after being recognized for inventing the lightbulb. Thomas Edison died in 1892."}"
 
 puts essay_writer(thomas_edison)
 
 # 5. Reflection 
-
-
+# I feel like this challenege proved to be much more difficulat than we initially anticipated. We ran into several issues with this challenge, from start to finish. The biggest obstacle we faced was probably when our capitalize_every_sentence method seemed to void out the capitalization done by the capitalize_every_word method. Fortunately, we were able to get around that and successfully write tests that confirmed our code worked properly. Since there was a lot of content in our template, our code appears to be more jumbled than it actually is. I'm sure there is more refactoring that could be done on this as well. 
