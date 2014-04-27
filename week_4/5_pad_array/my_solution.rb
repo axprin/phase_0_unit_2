@@ -15,6 +15,23 @@
 
 # 2. Initial Solution
 
+class Array
+    def pad!(min,optional=nil)
+        elements_to_add = min - self.count
+        return self if elements_to_add <= 0
+        self.concat Array.new(elements_to_add,optional)
+        return self
+	end
+    
+    def pad(min,optional=nil)
+        new_array = self.clone
+        elements_to_add = min - new_array.count
+        return new_array if elements_to_add <= 0
+        new_array.concat Array.new(elements_to_add,optional)
+        return new_array
+    end
+end
+
 
 
 
@@ -23,3 +40,4 @@
 
 
 # 4. Reflection 
+
