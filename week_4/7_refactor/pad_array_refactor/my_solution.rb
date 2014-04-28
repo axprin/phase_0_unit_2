@@ -1,74 +1,60 @@
 # U2.W4: Review and Refactor: Pad an Array
 
-# I worked on this challenge with Spencer Olson.
+# I worked on this challenge by myself.
 
 
 
-# 1. First Person's (zpfled) solution I liked
-#    What I learned from this solution
+# 1. First Person's solution I liked
+#   
+# 	What I learned from this solution:
+# 	This code is basically getting the result the same way my code is. I like how they employ the dup functionality rather than clone. I'm not sure of the exact difference, but it seems like something I should know...
+#
 # Copy solution here:
 class Array
-
-def pad(new_length, value = nil)
-	p self
-	p new_length
-	if self.length < new_length
-		return self
-	end
-	new_array = self.dup
-	(new_length - self.length).times { new_array.push(value) }
-	return new_array
-end
-
-def pad!(new_length, value = nil)
-	p self
-	p new_length
-	if self.length < new_length
-		return self
-	end
-	(new_length - self.length).times { self.push(value) }
-	return self
-end
-
-end
-
-
-# 2. Second Person's (scottjason) solution I liked
-#    What I learned from this solution
-# Copy solution here:
-
-class Array
-	def pad (size, value = nil)
-	new_arr = []
-	diff = size - self.length
-	padded_arr = Array.new(diff, value)
-
-		self.each { |x| new_arr << x }
-		return new_arr if size == 0
-			if diff <= 0
-				return new_arr
-			else
-			size > self.length
-				return padded_arr + new_arr
-			end
+	def pad!(minimum, pad_value = nil)
+		if self.length < minimum then 
+			fill_length = minimum - self.length
+			self.fill(pad_value, self.length, fill_length  )
+		else
+			return self
 		end
+	end
 
-		def pad! (size, value = nil)
-		diff = size - self.length
-		return self if size == 0
-
-			if diff <= 0
-				return self
-			else
-			self.concat(padded_arr)
-		end 
+	def pad(minimum, pad_value = nil)
+		if self.length < minimum then 
+			fill_length = minimum - self.length
+			dup.fill(pad_value, self.length, fill_length  )
+		else
+			return self.dup
+		end
 	end
 end
 
+
+# 2. Second Person's solution I liked
+#    What I learned from this solution
+# 	 I like how simple and concise this code is. Very easy to follow along and understand what's going on here. 
+#
+# Copy solution here:
+
+def pad(min_size, pad_value=nil)
+	array=self.dup
+    if (min_size - array.length) >0
+        (min_size-array.length).times do array << pad_value end
+    end
+    return array
+end
+
+def pad!(min_size, pad_value=nil)
+    if (min_size - self.length) >0
+        (min_size - self.length).times do self << pad_value end
+    end	
+    return self
+end
 
 
 # 3. My original solution:
-
+# As stated in my_solution for the pad array challenge, my partner and I refactored this on the go as we worked on it.
 
 
 # 4. My refactored solution:
@@ -93,3 +79,4 @@ end
 
 
 # 5. Reflection
+# I'm still learning a lot about writing code and the best way to handle a particular scenario, so refactoring doesn't come easy just yet. It is interesting to see how other people wrote out their code and to understand exactly what they did. I presume that refactoring will become much easier and more "second nature" once I have a lot more exposure and experience with the code and syntax. 
