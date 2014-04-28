@@ -4,33 +4,33 @@ i_want_pets = ["I", "want", 3, "pets", "but", "I", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, 
             "Annabelle" => 0, "Ditto" => 3}
 
-# Person 1's solution
-def my_array_finding_method(source, thing_to_find)
-  # Your code here!
-end
+# # Person 1's solution
+# def my_array_finding_method(source, thing_to_find)
+#   # Your code here!
+# end
 
-def my_hash_finding_method(source, thing_to_find)
-  # Your code here!
-end
+# def my_hash_finding_method(source, thing_to_find)
+#   # Your code here!
+# end
 
-# Identify and describe the ruby method you implemented. 
-# 
-#
-#
+# # Identify and describe the ruby method you implemented. 
+# # 
+# #
+# #
 
-# Person 2
-def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
-end
+# # Person 2
+# def my_array_modification_method(source, thing_to_modify)
+#   # Your code here!
+# end
 
-def my_hash_modification_method(source, thing_to_modify)
-  # Your code here!
-end
+# def my_hash_modification_method(source, thing_to_modify)
+#   # Your code here!
+# end
 
-# Identify and describe the ruby method you implemented. 
-# 
-#
-#
+# # Identify and describe the ruby method you implemented. 
+# # 
+# #
+# #
 
 
 # Person 3
@@ -49,19 +49,19 @@ end
 #for sorting the hash, since the value is the last number stored in the hash, I did some googling and found out you can sort_by &:last, which was a simple and effective solution. 
 
 
-# Person 4
-def my_array_deletion_method(source, thing_to_delete)
-  #Your code here!
-end
+# # Person 4
+# def my_array_deletion_method(source, thing_to_delete)
+#   #Your code here!
+# end
 
-def my_hash_deletion_method(source, thing_to_delete)
-  #Your code here!
-end
+# def my_hash_deletion_method(source, thing_to_delete)
+#   #Your code here!
+# end
 
-# Identify and describe the ruby method you implemented. 
-# 
-#
-#
+# # Identify and describe the ruby method you implemented. 
+# # 
+# #
+# #
 
 
 ################## DRIVER CODE ###################################
