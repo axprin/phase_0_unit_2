@@ -1,8 +1,8 @@
 # U2.W5: The Bakery Challenge (GPS 2.1)
 
 # Your Names
-# 1)
-# 2)
+# 1)Andy Principe
+# 2)Phil Crawford
 
  # This is the file you should end up editing. 
  
