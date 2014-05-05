@@ -1,6 +1,6 @@
 # U2.W5: Virus Predictor
 
-# I worked on this challenge [by myself, with: Andy Principe].
+# I worked on this challenge with Spencer Olson.
 
 # EXPLANATION OF require_relative
 #
