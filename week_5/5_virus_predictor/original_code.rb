@@ -1,6 +1,10 @@
 # U2.W5: Virus Predictor
 
+<<<<<<< HEAD
 # I worked on this challenge [by myself, with: Andy Principe].
+=======
+# I worked on this challenge with Spencer Olson.
+>>>>>>> FETCH_HEAD
 
 # EXPLANATION OF require_relative
 #

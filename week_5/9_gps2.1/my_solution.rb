@@ -1,6 +1,10 @@
 # U2.W5: Bakery Challenge GPS
 
+<<<<<<< HEAD
 # I worked on this challenge with: 
+=======
+# I worked on this challenge with: Phil Crawford
+>>>>>>> FETCH_HEAD
 
 
 
