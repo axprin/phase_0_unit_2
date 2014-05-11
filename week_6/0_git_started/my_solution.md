@@ -3,43 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+adds files to your staging area before you commit them
 
 #### branch
-<!-- Your defnition here -->
+lists the local branches you have available to you
 
 #### checkout
-<!-- Your defnition here -->
+switches to the new branch that proceeds the word "checkout"
 
 #### clone
-<!-- Your defnition here -->
+cpoes a repository so you can add to it
 
 #### commit
-<!-- Your defnition here -->
+records a snapshot of your staging area to push up via Git
 
 #### fetch
-<!-- Your defnition here -->
+downloads new branches of data from a remote repository
 
 #### log
-<!-- Your defnition here -->
+shows the commit history of the branch you are currently on
 
 #### merge
-<!-- Your defnition here -->
+joins multiple developmet histories together
 
 #### pull
-<!-- Your defnition here -->
+fetches from a remote repot and merges into the current branch
 
 #### push
-<!-- Your defnition here -->
+pushes branches and data into a remote repository
 
 #### reset
-<!-- Your defnition here -->
+undoes changes and commits. Comes in three flavors: head (unstage files from index and reset pointer to HEAD), --soft (moves HEAD to specified commit reference, index and staging are untouched), and --hard (unstage files AND undo any changes in the working directory since last commit)
 
 #### rm
-<!-- Your defnition here -->
+removes files from the working tree and the index
 
 #### status
-
+shows the working tree status
 
 ## Release 4: Git Workflow
 
