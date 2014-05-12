@@ -48,3 +48,4 @@ shows the working tree status
 - Commit locally
 
 ## Release 5: Reflection
+This challnege was pretty straight forward and a good introduction to utilizing the command line to commit and push changes up to github. I'm excited to practice these and learn to become more comfortable with the command line in the coming weeks!

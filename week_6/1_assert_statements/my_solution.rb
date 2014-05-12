@@ -27,12 +27,14 @@ end
 
 # 4. Convert your driver test code from that challenge into Assert Statements
 
+puts separate_comma(1234567)
 
 def assert
     raise "Assertion Failed!" unless yield
 end
 
-assert { separate_comma(1234567) == "1,234,567".to_i }
+assert {separate_comma(1234567) == "1,234,567"}
 
 
 # 5. Reflection
+# My assert statement still fails for some reason. It looks like the the separate_comma function is correctly returning the value, but something is wrong with my qualifying statement because it's clearly returning false. I have tried converting the "1,234,567" string to an array and integer, but I always get the "Assertion Failed!" message. 
